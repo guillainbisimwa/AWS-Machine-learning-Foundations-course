@@ -11,3 +11,6 @@ def test_days_until_launch_0_negative():
     
 def test_days_until_launch_1():
     assert(days_until_launch(9, 10) == 1)
+
+def test_days_until_launch_5():
+    assert(days_until_launch(10, 15) == 5)
